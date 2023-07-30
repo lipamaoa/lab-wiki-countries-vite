@@ -10,7 +10,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/:countryId" element={<CountryDetails />} />
+        <Route path="/:alpha3Code" element={<CountryDetails />} />
         <Route path="*" element={<h1>404 not found</h1>} />
       </Routes>
     </>
